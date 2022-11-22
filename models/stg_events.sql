@@ -1,6 +1,6 @@
 {{
     config(
-        materialized='table'
+        materialized='view'
     )
 }}
 
@@ -17,8 +17,3 @@ select
     title_in_simulcast,
     internet_connection_type
 from {{ source('main', 'events') }}
-limit 1000
-
-
-
-
