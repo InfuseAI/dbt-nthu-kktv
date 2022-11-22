@@ -1,0 +1,8 @@
+version: 2
+
+sources: 
+  - name: main
+    tables:
+      - name: events
+        identifier: train_source_events 
+        descrption: ''

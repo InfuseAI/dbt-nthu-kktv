@@ -1,0 +1,6 @@
+dbt_nthu_kktv:
+  outputs:
+   dev:
+     type: duckdb
+     path: nthu_kktv.duckdb
+  target: dev
