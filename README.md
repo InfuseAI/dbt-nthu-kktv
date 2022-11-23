@@ -110,7 +110,7 @@
 
    *\* Note: `--dbt-state` 此功能只有在 piperider 0.13.0+ 才支援*
 
-### 步驟5: 匯出產生出轉換後的 table
+## 步驟5: 匯出產生出轉換後的 table
 
 ```shell
 duckdb ./nthu_kktv.duckdb -csv -c 'select * from users_filtered' > users_filtered.csv  
