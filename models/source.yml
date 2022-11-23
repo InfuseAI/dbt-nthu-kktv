@@ -5,4 +5,3 @@ sources:
     tables:
       - name: events
         identifier: train_source_events 
-        descrption: ''

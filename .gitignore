@@ -2,3 +2,7 @@
 target/
 dbt_packages/
 logs/
+*.csv
+nthu_kktv.duckdb
+.DS_Store
+.user.yml
