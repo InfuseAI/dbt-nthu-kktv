@@ -28,7 +28,7 @@
 1. 觀看產生出的內容
 
     ```
-    duckdb nthu_kktv.duckdb -c 'select * from train_source_events limit 10'
+    duckdb nthu_kktv.duckdb -c 'select * from train_source_events'
     ```
 
 ## 步驟2: 用 dbt 來做資料轉換
@@ -52,7 +52,7 @@
 1. 觀察產生出來的檔案
 
     ```shell
-    duckdb nthu_kktv.duckdb -c 'select * from users_filtered limit 10'
+    duckdb nthu_kktv.duckdb -c 'select * from users_filtered'
     ```
 
 1. 可以用 dbt docs 的功能來看這個 project 的資訊
