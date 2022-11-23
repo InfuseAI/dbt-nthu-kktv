@@ -1,7 +1,8 @@
 version: 2
 
 sources: 
-  - name: main
+  - name: nthu_kktv
+    schema: main
     tables:
       - name: events
         identifier: train_source_events 

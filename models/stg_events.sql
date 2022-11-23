@@ -16,4 +16,4 @@ select
     platform,
     title_in_simulcast,
     internet_connection_type
-from {{ source('main', 'events') }}
+from {{ source('nthu_kktv', 'events') }}
