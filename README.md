@@ -1,5 +1,7 @@
 ## 介紹
 
+![](docs/assets/introduction.png)
+
 這個 project 示範如何用 [duckdb](https://duckdb.org/), [dbt](https://www.getdbt.com/), [piperider](https://github.com/InfuseAI/piperider)，針對 KKTV x NTHU 的資料，做資料清洗 (cleaning) 轉換 (transformation) 跟分析 (analysis)
 
 - **duckdb**: 是一個針對資料分析特化的資料庫。類似 sqlite 是嵌入式(embedded)資料庫，也就是不需要架設伺服器。duckdb 針對資料分析的需求，對儲存跟運算都做到最佳化。
