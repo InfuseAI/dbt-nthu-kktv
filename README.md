@@ -74,8 +74,12 @@
 1. 安裝 piperider，以及 [duckdb connector](https://docs.piperider.io/cli/supported-data-sources/duckdb-connector)。
 
     ```shell
-    pip install 'piperider[duckdb]'
+    pip install 'piperider-nightly[duckdb]'
+
+    # pip install 'piperider[duckdb]>=0.14.0'
     ```
+
+    *因為 piperider x dbt x duckdb 的整合要到 0.14.0 比較沒問題，預計 release 時間是 12/1，在這之前請安裝 nightly 版本。
 
 2. 執行 piperider
 
@@ -109,8 +113,6 @@
    ```shell
    piperider run --dbt-state target/
    ```
-
-   *\* Note: `--dbt-state` 此功能只有在 piperider 0.13.0+ 才支援*
 
 ## 步驟5: 匯出產生出轉換後的 table
 
