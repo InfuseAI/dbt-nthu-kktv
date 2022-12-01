@@ -74,12 +74,8 @@
 1. 安裝 piperider，以及 [duckdb connector](https://docs.piperider.io/cli/supported-data-sources/duckdb-connector)。
 
     ```shell
-    pip install 'piperider-nightly[duckdb]'
-
-    # pip install 'piperider[duckdb]>=0.14.0'
+    pip install 'piperider[duckdb]'
     ```
-
-    *因為 piperider x dbt x duckdb 的整合要到 0.14.0 比較沒問題，預計 release 時間是 12/1，在這之前請安裝 nightly 版本。
 
 2. 執行 piperider
 
